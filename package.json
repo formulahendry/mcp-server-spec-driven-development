@@ -1,0 +1,38 @@
+{
+  "name": "mcp-server-spec-driven-development",
+  "version": "0.1.0",
+  "author": "Jun Han",
+  "description": "Spec-Driven Development MCP Server",
+  "type": "module",
+  "bin": {
+    "mcp-server-spec-driven-development": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/index.js",
+    "watch": "tsc --watch",
+    "start": "node ./dist/index.js",
+    "start:streamableHttp": "node dist/streamableHttp.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mcp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/formulahendry/mcp-server-spec-driven-development.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "express": "^5.1.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.10",
+    "shx": "^0.3.4",
+    "typescript": "^5.8.2"
+  }
+}
