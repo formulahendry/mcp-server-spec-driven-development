@@ -1,5 +1,8 @@
 # Spec-Driven Development MCP Server
 
+[![NPM Downloads](https://img.shields.io/npm/d18m/mcp-server-spec-driven-development)
+](https://www.npmjs.com/package/mcp-server-spec-driven-development) [![Install in VS Code](https://img.shields.io/badge/Install_MCP_Server_(npx)-VS_Code-0098FF)](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522spec-driven%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522mcp-server-spec-driven-development%2540latest%2522%255D%257D) 
+
 Model Context Protocol (MCP) server that facilitates spec-driven development workflows by providing structured prompts for generating requirements, design documents, and code following a systematic approach.
 
 <a href="https://glama.ai/mcp/servers/@formulahendry/mcp-server-spec-driven-development">
