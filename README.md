@@ -78,3 +78,9 @@ Alternatively, you can add configuration in `mcp.json`:
 3. **Generate Code**: Use `generate-code-from-design` to generate implementation code from your design
 
 This creates a traceable path from requirements through design to implementation, ensuring consistency and completeness in your development process.
+
+## 🤔 Why Spec-Driven Development?
+
+Moving beyond Vibe Coding to a structured, specification-driven approach brings clarity, consistency, and maintainability to your development workflow. Instead of coding by intuition alone, Spec-Driven Development provides a systematic foundation that scales with your project's complexity.
+
+Learn more about the benefits: [Goodbye, Vibe Coding! Hello, Spec-Driven Development MCP Server!](https://dev.to/formulahendry/goodbye-vibe-coding-hello-spec-driven-development-mcp-server-2m17)
