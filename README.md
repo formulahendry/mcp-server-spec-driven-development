@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/formulahendry-mcp-server-spec-driven-development-badge.png)](https://mseep.ai/app/formulahendry-mcp-server-spec-driven-development)
+
 # Spec-Driven Development MCP Server
 
 [![NPM Downloads](https://img.shields.io/npm/d18m/mcp-server-spec-driven-development)
