@@ -31,6 +31,8 @@ This MCP server enables developers to follow a structured spec-driven developmen
 
 ### Installation
 
+#### VS Code
+
 Install the MCP server in VS Code using below buttons:
 
 [![Install in VS Code](https://img.shields.io/badge/Install_MCP_Server_(npx)-VS_Code-0098FF)](https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522spec-driven%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522mcp-server-spec-driven-development%2540latest%2522%255D%257D) [![Install in VS Code Insiders](https://img.shields.io/badge/Install_MCP_Server_(npx)-VS_Code_Insiders-24bfa5)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522spec-driven%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522-y%2522%252C%2522mcp-server-spec-driven-development%2540latest%2522%255D%257D)
@@ -40,6 +42,28 @@ Alternatively, you can add configuration in `mcp.json`:
 ```json
 {
     "servers": {
+        "spec-driven": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "mcp-server-spec-driven-development@latest"
+            ]
+        }
+    }
+}
+```
+
+#### Cursor, Claude Code
+
+Install the MCP server in Cursor using below button:
+
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=spec-driven&config=JTdCJTIyY29tbWFuZCUyMiUzQSUyMm5weCUyMC15JTIwbWNwLXNlcnZlci1zcGVjLWRyaXZlbi1kZXZlbG9wbWVudCU0MGxhdGVzdCUyMiU3RA%3D%3D)
+
+Alternatively, you can add configuration in `mcp.json`:
+
+```json
+{
+    "mcpServers": {
         "spec-driven": {
             "command": "npx",
             "args": [
