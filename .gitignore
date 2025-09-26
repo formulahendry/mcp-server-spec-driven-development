@@ -134,3 +134,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# MCP Registry files
+.mcpregistry_github_token
+.mcpregistry_registry_token

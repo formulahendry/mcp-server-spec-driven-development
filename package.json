@@ -1,6 +1,7 @@
 {
   "name": "mcp-server-spec-driven-development",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "io.github.formulahendry/spec-driven-development",
   "author": "Jun Han",
   "description": "Spec-Driven Development MCP Server",
   "type": "module",
